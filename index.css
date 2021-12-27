@@ -144,6 +144,12 @@ a{
     font-weight: 300;
 }
 
+.contactInfo.education h5{
+    color: #FFF;
+    font-weight: 500;
+}
+
+
 .contactInfo.language .percent{
     position: relative;
     width: 100%;

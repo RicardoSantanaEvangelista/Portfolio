@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .container{
@@ -245,6 +245,10 @@ p{
     background: #03a9f4;
 }
 
+.interest{
+    margin-top: 40px;
+}
+
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -265,6 +269,14 @@ p{
 
 .link{
     color: #FFF;
+}
+
+.footer{
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    margin: 30px;
+    background: linear-gradient(68.15deg, #4d41b9 16.62%, #1757cc 85.61%);
 }
 
 

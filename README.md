@@ -1,13 +1,24 @@
-# Portfolio
- Portfolio pessoal e responsivo, desenvolvido em: HTML5 e CSS3.
- 
-Primeira Versão do meu Portfolio está no ar, link: https://ricardosantanaevangelista.github.io/Portfolio/
+<h1 text-align="center">Portfólio</h1>
+
 ##
 
-<div> 
-    <img align="center" alt="ricardo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<p>
+    Portfólio responsivo e em fase de aprimoramento, ainda não está finalizado, mas já está no ar com hospedado no GitHub Pages
+</p>
 
-    <img align="center" alt="ricardo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<div>
+    <p>Tecnologias utilizadas:</p>
+
+<ul>
+<li><img align="center" alt="ricardo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></li>
+
+            
+<li><img align="center" alt="ricardo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></li>
+</ul>
 </div>
+
+<p>
+    Link de acesso: https://ricardosantanaevangelista.github.io/Portfolio/
+</p>
     
 

@@ -97,13 +97,13 @@ body{
 .contactInfo ul li{
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin: 10px 0px;
     cursor: pointer;
 }
 
 .contactInfo ul li .icon{
     display: inline-block;
-    width: 30px;
+    width: 20px;
     font-size: 18px;
     color: #03a9f4;
 }
@@ -278,7 +278,12 @@ p{
     margin: 30px;
     background: linear-gradient(68.15deg, #4d41b9 16.62%, #1757cc 85.61%);
 }
-
+.info-contact:hover{
+    width: 85%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(30, 41, 190, 0.623);  
+}
 
 @media (max-width: 1000px){
     .container{

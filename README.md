@@ -1,6 +1,7 @@
-<h1  text-align="center">Portfólio</h1>
+<h1  align="center">Portfólio</h1>
 
-##
+#
+
 
 <p>
     Portfólio responsivo e em fase de aprimoramento, ainda não está finalizado, mas já está no ar hospedado no GitHub Pages

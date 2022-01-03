@@ -202,6 +202,33 @@ p{
     min-width: 150px;
 }
 
+
+.info-contact-experience{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    
+}
+
+.fa-github-alt{
+    color: #003147;
+    padding-right: 5px;
+}
+
+.text-experience{
+    color: #003147;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.phrase{
+    color: #FFF;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+}
+
 .about .box .year_company h5{
     text-transform: uppercase;
     color: #848c90;
@@ -279,10 +306,17 @@ p{
     background: linear-gradient(68.15deg, #4d41b9 16.62%, #1757cc 85.61%);
 }
 .info-contact:hover{
-    width: 85%;
+    width: 100%;
     padding: 5px;
     border-radius: 5px;
     background-color: rgba(30, 41, 190, 0.623);  
+}
+
+.info-contact-experience:hover{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(30, 41, 190, 0.623); 
 }
 
 @media (max-width: 1000px){

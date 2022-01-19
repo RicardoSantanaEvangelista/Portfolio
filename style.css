@@ -63,10 +63,6 @@ body{
     line-height: 1.4em;
 }
 
-p{
-    text-align: justify;
-}
-
 .profileText h2 span{
     font-size: 0.8em;
     font-weight: 300;
@@ -193,6 +189,8 @@ a{
 
 p{
     color: #333;
+    text-align: justify;
+    
 }
 
 .about .box{
@@ -207,21 +205,23 @@ p{
 
 
 .info-contact-experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     display: flex;
-    margin: 5px;
-    
+    margin: 5px; 
 }
-
-.fa-github-alt{
-    color: #003147;
-    padding-right: 5px;
+div .sub-icons-text{
+   color: #003147;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 10px;
 }
-
-.text-experience{
-    color: #003147;
-    font-size: 20px;
-    font-weight: 300;
+.icons-ex {
+    color: #03a9f4;
+    font-size: 30px;
+    padding-right: 15px;
 }
 
 .phrase{
@@ -315,11 +315,8 @@ p{
     background-color: rgba(30, 41, 190, 0.623);  
 }
 
-.info-contact-experience:hover{
-    width: 100%;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgba(4, 20, 252, 0.623); 
+.text-experience .icons-ex:hover{
+    color: rgba(124, 16, 212, 0.623);
 }
 
 @media (max-width: 1000px){

@@ -27,6 +27,10 @@ body{
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
+p{
+    text-align: justify;
+}
+
 .profileText{
     position: relative;
     display: flex;

@@ -224,12 +224,15 @@ div .sub-icons-text{
     padding-right: 15px;
 }
 
-.phrase{
+.repositorios{
     color: #FFF;
     font-weight: 500;
     padding: 10px;
     border-radius: 8px;
-    background-color: black;
+    background-color: #03a9f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about .box .year_company h5{
@@ -312,11 +315,15 @@ div .sub-icons-text{
     width: 100%;
     padding: 5px;
     border-radius: 5px;
-    background-color: rgba(30, 41, 190, 0.623);  
+    background-color: rgba(124, 16, 212, 0.623);  
 }
 
 .text-experience .icons-ex:hover{
     color: rgba(124, 16, 212, 0.623);
+}
+
+.repositorios:hover{
+    background-color: rgba(124, 16, 212, 0.623);;
 }
 
 @media (max-width: 1000px){
